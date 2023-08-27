@@ -118,7 +118,7 @@ nav {
 .tab1 {
     width: 13.5%;
     position: absolute;
-    top: 127.1%;
+    top: 130.9%;
     z-index: 1;
     padding: 0.3%;
     border:rgb(115, 230, 192) double 10px;
@@ -159,7 +159,7 @@ nav {
 .tab2 {
     width: 13.5%;
     position: absolute;
-    top: 150.5%;
+    top: 154.4%;
     z-index: 1;
     padding: 0.3%;
     border:rgb(115, 230, 192) double 10px;
@@ -188,7 +188,7 @@ nav {
 .tab3 {
     width: 13.5%;
     position: absolute;
-    top: 150.5%;
+    top: 154.4%;
     left: 68.36%;
     z-index: 1;
     padding: 0.3%;
@@ -215,7 +215,7 @@ nav {
 .tab4 {
     width: 13.5%;
     position: absolute;
-    top: 173.85%;
+    top: 177.79%;
     z-index: 1;
     padding: 0.3%;
     border:rgb(115, 230, 192) double 10px;
@@ -240,7 +240,7 @@ nav {
 .tab5 {
 width: 13.5%;
 position: absolute;
-top: 173.85%;
+top: 177.79%;
 left: 68.36%;
 z-index: 1;
 padding: 0.3%;
