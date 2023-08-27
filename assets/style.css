@@ -14,9 +14,7 @@ body {
     
 }
 
-a {
-    display:flex;
-}
+
 
 
 header {
@@ -116,6 +114,35 @@ nav {
     flex-wrap: wrap;
 }
 
+.tab1 {
+    width: 13.5%;
+    position: absolute;
+    top: 127.1%;
+    z-index: 1;
+    padding: 0.3%;
+    border:rgb(115, 230, 192) double 10px;
+    text-decoration: none;
+    font-size: 0.8rem;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: aquamarine;
+    filter: none !important;
+}
+
+/* .tab1 {
+    width: 25%;
+    position: relative;
+    top: 27.5%;
+    z-index: 1;
+    padding: 1%;
+    border:rgb(115, 230, 192) double 10px;
+    text-decoration: none;
+    font-size: 0.8rem;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: aquamarine;
+    filter: none !important;
+} */
 .work1 {
     background-image: url("./images/minpro.png");
     /* width: 100%; */
@@ -127,8 +154,22 @@ nav {
     /* display:flex;
     align-items: flex-end; */
     /* border: rgba(0,0,0, 0.6) double 20px; */
-    
 }
+.tab2 {
+    width: 13.5%;
+    position: absolute;
+    top: 150.5%;
+    z-index: 1;
+    padding: 0.3%;
+    border:rgb(115, 230, 192) double 10px;
+    text-decoration: none;
+    font-size: 0.8rem;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: aquamarine;
+    filter: none !important;
+}
+
 .work2 {
     background-image: url("./images/wweshot.png");
     /* width: 48%; */
@@ -142,6 +183,22 @@ nav {
     /* border: rgba(0,0,0, 0.6) double 20px; */
     
 }
+
+.tab3 {
+    width: 13.5%;
+    position: absolute;
+    top: 150.5%;
+    left: 68.36%;
+    z-index: 1;
+    padding: 0.3%;
+    border:rgb(115, 230, 192) double 10px;
+    text-decoration: none;
+    font-size: 0.8rem;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: aquamarine;
+    filter: none !important;
+}
 .work3 {
     background-image: url("./images/horishot.png");
     flex:1 0 48%;
@@ -153,6 +210,21 @@ nav {
     filter: opacity(50%);
     /* border: rgba(0,0,0, 0.6) double 20px; */
 }
+
+.tab4 {
+    width: 13.5%;
+    position: absolute;
+    top: 173.85%;
+    z-index: 1;
+    padding: 0.3%;
+    border:rgb(115, 230, 192) double 10px;
+    text-decoration: none;
+    font-size: 0.8rem;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: aquamarine;
+    filter: none !important;
+}
 .work4 {
     background-image: url("./images/full-lp.png");
     flex:1 0 46%;
@@ -163,6 +235,21 @@ nav {
     margin-top:2%;
     filter: opacity(50%);
     /* border: rgba(0,0,0, 0.6) double 20px; */
+}
+.tab5 {
+width: 13.5%;
+position: absolute;
+top: 173.85%;
+left: 68.36%;
+z-index: 1;
+padding: 0.3%;
+border:rgb(115, 230, 192) double 10px;
+text-decoration: none;
+font-size: 0.8rem;
+color: black;
+font-family: 'Courier New', Courier, monospace;
+background-color: aquamarine;
+filter: none !important;
 }
 
 .work5 {
@@ -181,15 +268,6 @@ nav {
     filter: none;
 }
 
-.tab1 {
-    /* outline: aquamarine solid 2px; */
-    font-size: 1rem;
-    color: black;
-    font-family: 'Courier New', Courier, monospace;
-    background-color: aquamarine;
-    filter: none !important;
-
-}
 
 .cc {
     display:flex;
