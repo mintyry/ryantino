@@ -332,8 +332,9 @@ nav {
     text-shadow: 0 0 20px #9afe89;
   }
 /* tried to make contact links glow when hover over title; did not work. */
-#contact:hover .fa {
+#contact:hover + .contactcn .fa {
     text-shadow: 0 0 20px #9afe89;
+    transition:all ease-in 0.2s;
 }
 
 /* responsiveness to entire webpage when screen shrinks; work images take up entire width of container */
