@@ -36,4 +36,4 @@ N/A
 
 ## Project Repository
 
-Please enjoy the [deployed application here](https://mintyry.github.io/Minty-Ry-Portfolio/)!
+Please enjoy the [deployed application here](https://mintyry.github.io/ryantino/)!

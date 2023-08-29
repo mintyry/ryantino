@@ -1,3 +1,5 @@
+/* universal selector to apply these properties to everything unless speccified otherwise */
+
 * {
     font-family: 'Arial Narrow', Arial, sans-serif;
     margin: 0;
@@ -5,6 +7,7 @@
     /* outline: red solid 2px; */
 }
 
+/* adds background image to whole page */
 body {
     background-image: url("./images/wp8981153.jpg");
     background-size:cover;
@@ -13,6 +16,7 @@ body {
 
 }
 
+/* background table for the entire header */
 header {
     background-image: linear-gradient(to right, transparent ,#65867c, #2e2e2e);
     color: aquamarine;
@@ -22,11 +26,11 @@ header {
     align-items: center;
     padding: 2%;
 }
-
+/* name on left of header */
 .ry {
     margin-left:8%;
 }
-
+/* main nav to the rest of the page; jumpdown links */
 nav {
     display: flex;
     flex-wrap: nowrap;
@@ -34,6 +38,7 @@ nav {
     margin-right: 20%;
 }
 
+/* styles the links in the nac */
 .link {
     font-family: 'Bricolage Grotesque', sans-serif;
     color: rgb(146, 146, 146);
@@ -41,7 +46,7 @@ nav {
     margin: 5%;
 }
 
- 
+ /* main picture/design for page, separating header and main */
 .hero {
     width: 100%;
     height: 25rem;
@@ -51,12 +56,14 @@ nav {
     border: rgba(0,0,0, 0.6) double 50px;
 }
 
+/* container for about section */
 .aa {
     display:flex;
     justify-content: space-between;
     background-color: rgba(46, 46, 46, 0.8);
     margin: 2% auto;
 }
+/* about title on left */
 #about {
     display: flex;
     color: aquamarine;
@@ -69,6 +76,7 @@ nav {
     margin: 2%;
     background-color: transparent;
 }
+/* about content - paragraph about me */
 .aboutcn {
     font-family: 'Arial Narrow', Arial, sans-serif;
     color: rgb(146, 146, 146);
@@ -78,12 +86,14 @@ nav {
     background-color: transparent;
 }
 
+/* work container */
 .ww {
     display:flex;
     justify-content: space-between;
     background-color: rgba(46, 46, 46, 0.8);
     margin: 2% auto;
 }
+/* work title on left */
 #work {
     display: flex;
     color: aquamarine;
@@ -95,6 +105,7 @@ nav {
     padding: 2%;
     margin: 2%;
 }
+/* container holding all work links and images */
 .workcn {
     font-family: 'Bricolage Grotesque', sans-serif;
     color: rgb(146, 146, 146);
@@ -105,12 +116,13 @@ nav {
     flex-wrap: wrap;
 }
 
-
+/* container for first work image and link */
 .work1 {
     width: 100%;
     flex:2 0 100%;
     margin-top: -5%;
 }
+/* title tab for first link */
 .tab1 {
     position: relative;
     top: 76%;
@@ -125,12 +137,14 @@ nav {
     filter: none !important;
     white-space: nowrap;
 }
+/* styles text link within the tab */
 .tl1 {
     text-decoration: none;
     font-size: 1.1vw;
     color: black;
     font-family: 'Courier New', Courier, monospace;
 }
+/* the actual link and image to first project */
 .one {
     display: block;
     filter: opacity(50%);
@@ -140,7 +154,7 @@ nav {
     background-size:auto 600px;
     position: relative;
 }
-
+/* second work container */
 .work2 {
     flex:1 0 48%;  
     margin-right:1%;
@@ -170,7 +184,7 @@ nav {
     background-size:auto 600px;
     position: relative;
 }
-
+/* third work container */
 .work3 {
     flex:1 0 48%;
     margin-left:1%;
@@ -201,6 +215,7 @@ nav {
     position: relative;
 }
 
+/* fourth work container */
 .work4 {
     flex:1 0 46%;  
     margin-right:1%;
@@ -231,6 +246,7 @@ nav {
     position: relative;
 }
 
+/* fifth work container */
 .work5 {
     flex:1 0 46%;
     margin-left:1%;
@@ -261,15 +277,18 @@ nav {
     position: relative;
 }
 
+/* when hovering over these elements, filter is removed */
 .one:hover, .two:hover, .three:hover, .four:hover, .five:hover {
     filter: none;
 }
 
+/* contact container */
 .cc {
     display:flex;
     justify-content: space-between;
     background-color: rgba(46, 46, 46, 0.8);
 }
+/* contact title on left */
 #contact {
     display: flex;
     color: aquamarine;
@@ -282,6 +301,7 @@ nav {
     margin: 2%;
     background-color: transparent;
 }
+/* contact links */
 .contactcn {
     flex-basis: 67%;
     padding: 2%;
@@ -291,12 +311,14 @@ nav {
     justify-content: space-evenly;
     align-items: center;
 }
+/* styling links */
 .contactcn a {
     font-family: 'Bricolage Grotesque', sans-serif;
     color: rgb(146, 146, 146);
-    font-size:2.3rem;
+    font-size:4vw;
     background-color: transparent;
 }
+/* targets to style icons in contact */
 .fa {
     padding: 20px;
     font-size: 30px;
@@ -304,16 +326,17 @@ nav {
     text-align: center;
     text-decoration: none;
   }
-
+/* makes icons glow upon hover */
   .link:hover, .fa:hover {
     opacity: 1.0;
     text-shadow: 0 0 20px #9afe89;
   }
-    
+/* tried to make contact links glow when hover over title; did not work. */
 #contact:hover .fa {
     text-shadow: 0 0 20px #9afe89;
 }
 
+/* responsiveness to entire webpage when screen shrinks; work images take up entire width of container */
 @media screen and (max-width:768px) {
     .work1, .work2, .work3, .work4, .work5 {
         flex:1 1 100%;
